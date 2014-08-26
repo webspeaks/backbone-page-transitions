@@ -18,7 +18,7 @@ Currently the plugin supports two transition effects:
 **How to apply this plugin:**
 
 Your old view rendering:
-```
+```javascript
 requirejs(['views/ViewHome'], function (ViewHome) {
   var home = new ViewHome({
     el: ".canvas"
